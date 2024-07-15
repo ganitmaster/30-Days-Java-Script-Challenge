@@ -1,0 +1,28 @@
+DAY-01:  VARIABLES AND DATA TYPES
+
+ACTIVITY 1 => Variable Declaration
+TASK 1: Declare a variable using 'var', assign it a number and log it to the console
+TASK 2: Declare a variable using 'let', assign it a string and log it to the console
+
+ACTIVITY 2 => Constant Declaration 
+TASK 3: Declare a variable using 'const', assign it a boolean value and log it to the console
+
+ACTIVITY 3 => Data Types 
+TASK 4: Craete variables of different data types (number, string, boolean, object,array) and log each variable's type using the 'typeof' operater
+
+ACTIVITY 4 => Reassigning Variables 
+TASK 5: Declare a variable using 'let', assign it an initial value, reassign a new value, log both values to the console 
+
+ACTIVITY 5 => Understanding const 
+Try reassigning a variable declared with 'const' and observe the error 
+
+Feature Request :
+1. Variable Types Console  Log : Write a script that declares variables of different data types and logs both the value and type of each vaiable to the console.
+2. Reassignment Demo : Create a script that demonstrates the differnece in behaviour between 'let' and 'const' when it comes to reassignment.
+
+Achievements: 
+By the end of these activities, you will: 
+- Know how to declare variables using 'var', 'let' and 'const'.
+- Understand the different data types in Java Script.
+- Be able to use the 'typeof' operator to identify the data types in a variable.
+- Understand the concept of variable reassignment and the immutability of 'const' variables.
