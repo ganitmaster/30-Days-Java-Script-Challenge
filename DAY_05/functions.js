@@ -77,4 +77,5 @@ console.log(greet('Radhika'))
 // Activity 5: Higher-Order function
 // Task 9: Write a higher order function that takes a function and number and calls the function that many times.
 
+
 // Task 10: Write a higher order function that takes two functions and a value, applies 1st function to the value, and then applies second function to the result.
