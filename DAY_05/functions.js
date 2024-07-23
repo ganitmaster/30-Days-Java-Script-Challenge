@@ -77,5 +77,31 @@ console.log(greet('Radhika'))
 // Activity 5: Higher-Order function
 // Task 9: Write a higher order function that takes a function and number and calls the function that many times.
 
+function callFunctionNTimes(fn, n) {
+    return function() {
+        for (let i = 0; i < n; i++) {
+            fn();
+        }
+    };
+}
+function sayHello() {
+    console.log("Hello!");
+}
+const sayHello5Times = callFunctionNTimes(sayHello, 5);
+sayHello5Times();
 
 // Task 10: Write a higher order function that takes two functions and a value, applies 1st function to the value, and then applies second function to the result.
+function myFunction(fn1, fn2, value) {
+    return fn2(fn1(value));
+}
+
+function sum(x) {
+    return x + 2;
+}
+
+function multiply(x) {
+    return x * 3;
+}
+
+const result = myFunction(sum, multiply, 5);
+console.log(result); 
