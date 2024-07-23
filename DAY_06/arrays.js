@@ -46,3 +46,47 @@ let doubled = numbers.map(function(x){
     return x * 2;
 });
 console.log(doubled);
+
+// Task 8: Use the filter method to create a new array with only even numbers and log the new array.
+let newNumbers = [1,2,3,4,5,6,7,8,9,10]
+let evenNums = newNumbers.filter(function(num){
+    return num%2==0;
+});
+console.log(evenNums)
+
+// Task 9: Use the reduce method to calculate sum of all numbers in the array and log the result.
+let sumOfNumbers = newNumbers.reduce(function(acc,curr){
+    return acc+curr;
+},0)
+console.log(sumOfNumbers)
+
+// Activity 4: Array iteration
+// Task 10: Use a for loop to iterate over the array and log the result to the console.
+for(let i =0; i<newNumbers.length;i++){
+    console.log(newNumbers[i])
+}
+
+// Task 11: Use the forEach method to iterate over the array and log each element to the console.
+newNumbers.forEach(function(num){
+    console.log(num)
+})
+
+// Activity 5: Multidimensional Array
+// Task 12: Create a two-dimensional array(matrix) and log the entire array to the console.
+let matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+matrix.forEach(function(i,j){
+    console.log(i,j)
+})
+// console.log("Matrix")
+// for(let i=0;i<matrix.length;i++){
+//     for(let j=0;j<matrix.length;j++){
+//         console.log(matrix[i][j])
+//     }
+// }
+
+// Task 13: Access and log a specific element from the two dimensional array.
+console.log(matrix[2][0])
